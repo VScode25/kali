@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>profile - Abu sami</title>
+</head>
+
+<body style="font-family: Roboto, sans-serif;" class="bg-[#021227] text-[#cccccc]">
+
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
+
+  <header class="bg-[#021227] max-w-screen-xl	mx-auto px-4 py-6">
+    <nav class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
+        <!-- <li class=""><a href="#skills" class="transition-all hover:text-[#247032]">Skills</a></li> -->
+        <li class=""><a href="#projects" class="transition-all hover:text-[#247032]">Projects</a></li>
+        <li class=""><a href="#blogs" class="transition-all hover:text-[#247032]">Our platforms</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#247032]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ********************************************** -->
+  <!-- Hero Section -->
+  <!-- ********************************************** -->
+
+  <section
+    class="flex flex-col-reverse sm:flex-row sm:justify-between	 lg:min-h-screen bg-[#021227] px-8 sm:px-16 py-4 max-w-screen-xl	mx-auto">
+    <!-- left side -->
+    <div class="sm:w-3/5">
+      <p style="font-family: 'Roboto Mono', monospace;" class="text-[#309543] font-semibold">Hi, my name is</p>
+      <h2 class="text-4xl lg:text-5xl xl:text-6xl	font-bold text-[#cccccc] mt-3 lg:mt-7">Abu sami.</h2>
+      <h2 class="text-3xl lg:text-4xl xl:text-5xl	font-bold text-[#247032] mt-3 lg:mt-7">programmer.</h2>
+      <p class="mt-6 lg:mt-10 max-w-md	text-[#cccccc]">
+        programmer  developer   Web , desktop  and Android .
+        Experience in cybersecurity and Networking  <br>
+        Our motto is speed in work and accuracy in performance. <br>
+        <span style="font-family: 'Roboto Mono', monospace;" class="font-bold text-[#309543]">Open for Work &
+          Collaboration.</span>
+      </p>
+      <div class="mt-12">
+        <a href="#skills" style="font-family: 'Roboto Mono', monospace;"
+          class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold transition-all hover:bg-[#30954232] rounded-md">Check
+          out
+          My
+          Skills !</a>
+      </div>
+      <!-- social Links -->
+      <div class="mt-12">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.linkedin.com/in/abu-sami-13287427b/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://github.com/VScode2005" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://twitter.com/abusami50ss" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.instagram.com/abusami50ss/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="mailto: abusami50ss@gamil.com" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- right side -->
+    <div class="hidden sm:block sm:w-2/5">
+      <img src="./images/kali.png" alt="hero-img" class="">
+    </div>
+  </section>
+
+  <!-- ********************************************** -->
+  <!-- tech stack Section -->
+  <!-- ********************************************** -->
+
+  <section class="bg-[#021227] px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div class="">
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
+
+      <!-- skills -->
+      <div class="grid grid-cols-3  sm:grid-cols-5 gap-12" style="font-family: 'Roboto Mono', monospace;">
+
+        <!-- Skill 01 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">HTML</p>
+        </div>
+
+
+        <!-- Skill 02 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">CSS</p>
+        </div>
+
+        <!-- Skill 03 -->
+
+        <div class="flex flex-col items-center gap-2 ">
+          <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc] text-center">Tailwind CSS</p>
+        </div>
+
+
+        <!-- Skill 04 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">JavaScript</p>
+        </div>
+        <!-- Skill 04 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-react-80.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">React</p>
+        </div>
+
+
+        <!-- Skill 05 -->
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Git</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Some Things I’ve Built Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold text-center">Some of the things I build</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <!-- featured projects -->
+    <div>
+
+      <!-- featured project 01 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/111.png" alt="paytm clone" class="">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. I design websites
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Responsive web design
+            . <br>
+            <span class="text-[#309543] font-medium">I work all the time</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>PHP</li>
+              <li>java</li>
+              <li>WordPress</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 02 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">02. Applications design
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            design Android and ios and Desktop. <br>
+            <span class="text-[#309543] font-medium">I work all the time</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>python</li>
+              <li>c++</li>
+              <li>c#</li>
+              <li>Kotlin</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://github.com/VScode25/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/20.jpg" alt="rode website clone" class="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 03 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/13.jpg" alt="shopify clone">
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">03. Networks management
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Networks management experience
+           . <br>
+            <span class="text-[#309543] font-medium">I work all the time</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>cisco</li>
+              <li>Network</li>
+              <li>Cyber Security</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 04 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">04. The best designs</h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            Modern and elegant designs. <br>
+            <span class="text-[#309543] font-medium">I work all the time</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>Photoshop</li>
+              <li>Premiere </li>
+              <li>Lightroom </li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/64.jpg" alt="omnifood">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Honorable Mentions -->
+    <div class="mt-20">
+      <h2 class="text-center text-3xl font-semibold">Honorable Mentions</h2>
+
+      <!-- projects -->
+
+      <div class=" px-5 py-24">
+        <div class="flex flex-wrap gap-y-4 -m-4">
+
+          <!-- project 10 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/2.jpg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Networks management</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  Specialized in managing networks with high efficiency
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- project 11 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/3.jpg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Sites Design</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  We have the most beautiful and modern designs
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="web-hosting-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/5.jpg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Cyber ​​Security</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  High experience in cybersecurity and penetration testing
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 15 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="product-designer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/1.jpg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">Photoshop</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  Beautiful and realistic photo designs
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 14 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="dance-home-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/6.jpeg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">logos</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  The best and most beautiful logos
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]">
+                    </ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 13 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="saas-landing-page" class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/4.JPG">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">Applications  design</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  Android application design and ios and Desktop
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="business-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/8.jpg">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">programming</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  Experience in all programming languages
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 9 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/888.png">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Operating systems</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">High experience</h1>
+                <p class="leading-relaxed">
+                  Experience in all operating systems and designing special systems soon
+                  .
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/VScode25" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ****************************************** -->
+  <!-- Our platforms Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="blogs">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Our platforms</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="flex justify-center gap-1 flex-wrap lg:justify-between">
+
+      <!-- Our platforms 1 -->
+      <div class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://www.upwork.com/freelancers/~01051a463fa08d4203"
+          target="_blank" rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://www.upwork.com/freelancers/~01051a463fa08d4203"
+            alt="Up work">
+        </a>
+        <div class="p-5">
+          <a href="https://www.upwork.com/freelancers/~01051a463fa08d4203"
+            target="_blank" rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">We are on these platform
+              .</h5>
+          </a>
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            We provide all services of all kinds, programming, penetration testing, designing websites and applications in all forms and in different programming languages...
+          </p>
+          <a href="https://www.upwork.com/freelancers/~01051a463fa08d4203"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Our platforms 2 -->
+      <div
+        class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm mt-4 lg:mt-0 bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://www.freelancer.com/u/VScode2005"
+          target="_blank" rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://www.freelancer.com/u/VScode2005"
+            alt="freelancer">
+        </a>
+        <div class="p-5">
+          <a href="https://www.freelancer.com/u/VScode2005"
+            target="_blank" rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">We are on these platform
+             
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            We provide all services of all kinds, programming, penetration testing, designing websites and applications in all forms and in different programming languages...
+           .
+          </p>
+          <a href="https://www.freelancer.com/u/VScode2005"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Our platforms 3 -->
+      <div
+        class="md:max-w-[70%] lg:max-w-[30%] xl:max-w-sm mt-4 lg:mt-0 bg-[#021227] rounded-lg border border-gray-800 shadow-md">
+        <a href="https://mostaql.com/u/VScode" target="_blank"
+          rel="noopener noreferrer">
+          <img class="rounded-t-lg"
+            src="https://mostaql.com/u/VScode"
+            alt="mostaql">
+        </a>
+        <div class="p-5">
+          <a href="https://mostaql.com/u/VScode" target="_blank"
+            rel="noopener noreferrer">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white-900">We are on these platform</h5>
+          </a>
+          <p style="font-family: 'Roboto', monospace;" class="mb-3 font-normal text-gray-500	 text-sm">
+            We provide all services of all kinds, programming, penetration testing, designing websites and applications in all forms and in different programming languages...
+          </p>
+          <a href="https://mostaql.com/u/VScode"
+            class="inline-flex items-center text-sm font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+            target="_blank" rel="noopener noreferrer">
+            Read more
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- more Our platforms -->
+    <div class="text-end">
+      <a href="https://www.guru.com/freelancers/vscode"
+        class="inline-flex items-center pt-2 md:pr-[120px] lg:pr-0 text-xl font-medium text-center text-[#309543] transition-all hover:text-[#30954232]"
+        target="_blank" rel="noopener noreferrer">
+        More Blogs
+        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Call To Action Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Get In Touch</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="mt-12 flex justify-center">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: abusami50ss@gmail.com" target="_blank" class="w-[35px] h-[35px]"></a>
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/abu-sami-13287427b/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/VScode25" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://twitter.com/abusami50ss" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.instagram.com/abusami50ss/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</body>
+
+</html>
